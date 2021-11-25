@@ -129,4 +129,19 @@ dmypy.json
 .pyre/
 
 # specific_files
-dummy_image
+data/dummy_image
+data/_test_kpi.xlsx
+data/_test_rs.xlsx
+data/_test_similarity.xlsx
+data/_test_text.xlsx
+data/businesses_explode.csv
+data/dummy_category.csv
+data/dummy_dataset.csv
+data/dummy_review_filtered.csv
+data/dummy_review_kpi.csv
+data/dummy_similarity.csv
+data/yelp_academic_dataset_business.json
+data/yelp_academic_dataset_review.json
+config/config_dummy.ini
+config_mangrove.ini
+config_prod.ini
