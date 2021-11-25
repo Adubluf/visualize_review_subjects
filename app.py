@@ -1,13 +1,11 @@
 # import libraries
 import pandas as pd
-import numpy as np
-import plotly.express as px
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
 import dash_bootstrap_components as dbc
 from dash.dependencies import Output, Input
 from dash import dash_table
+from dash import dcc
+from dash import html
 from flask_caching import Cache
 from function_folder import *
 # ----------------------------------------------------------------------------------------------------
