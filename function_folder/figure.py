@@ -68,7 +68,7 @@ def kpi_review_subject(click_data, df_filtered_business, list_slider, df_kpi, df
         # drop first row (similarity 1, to be investigated review subject)
         df_most_similar.drop(index=df_most_similar.index[0], axis=0, inplace=True)
         df_most_similar = pd.merge(df_most_similar, df_pd_filtered_business, left_index=True, right_on='sub', how='left')
-        df_most_similar_final = df_most_similar[['name', sub]].rename(columns={sub : "similarity"})
+        df_most_similar_final = df_most_similar[['name', 'rating', sub]].rename(columns={sub : "similarity"})
         return df_most_similar_final
 
     # function to create figure kpis
