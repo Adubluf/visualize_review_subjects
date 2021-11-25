@@ -7,15 +7,19 @@ from dash import dash_table
 from dash import dcc
 from dash import html
 from flask_caching import Cache
+from configparser import ConfigParser
 from function_folder import *
 # ----------------------------------------------------------------------------------------------------
 
+# load config
+config = ConfigParser()
+config.read('config/config.ini')
 
 # define variables
 # define timeout for memoize function
-TIMEOUT = 300
-# path_business -> defined in data_import.py
-# path_kpi -> defined in data_import.py
+TIMEOUT = int(config['timeout']['timeout_memoize'])
+TIMEOUT_SOURCE = int(config['timeout']['timeout_source'])
+TIMEOUT_PREPROCESS = int(config['timeout']['timeout_preprocess'])
 # ----------------------------------------------------------------------------------------------------
 
 
