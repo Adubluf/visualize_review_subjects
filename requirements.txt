@@ -1,0 +1,4 @@
+pandas
+dash
+flask-caching
+langdetect
