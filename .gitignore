@@ -142,6 +142,7 @@ data/dummy_review_kpi.csv
 data/dummy_similarity.csv
 data/yelp_academic_dataset_business.json
 data/yelp_academic_dataset_review.json
+notebooks
 config/config_dummy.ini
 config_mangrove.ini
 config_prod.ini
