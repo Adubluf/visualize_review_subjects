@@ -28,14 +28,14 @@ def map(df):
                             color='rating',
                             color_continuous_scale='rdylgn',
                             range_color=[0,100],
-                            zoom=3,
+                            zoom=7,
                             height=500)
     fig.update_layout(mapbox_style='open-street-map')
     fig.update_layout(showlegend=False)
     # side distance
     fig.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0})
     # change marker size
-    fig.update_traces(marker={'size': 10})
+    fig.update_traces(marker={'size': 20})
     # return figure
     return fig
 
