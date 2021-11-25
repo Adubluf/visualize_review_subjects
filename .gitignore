@@ -144,5 +144,6 @@ data/yelp_academic_dataset_business.json
 data/yelp_academic_dataset_review.json
 notebooks
 config/config_dummy.ini
-config_mangrove.ini
-config_prod.ini
+config/config_mangrove.ini
+config/config_prod.ini
+cache_directory/*
