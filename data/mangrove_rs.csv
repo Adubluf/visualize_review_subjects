@@ -1,0 +1,108 @@
+sub,name,category,city,state,country,lat,lon,review_count,rating
+"geo:-16.5252003,-68.1551733?u=50&q=Bazar%20Librer%C3%ADa%20Andre%20-%20Fotocopias",Bazar%20Librer%C3%ADa%20Andre%20-%20Fotocopias,not_defined,not_defined,not_defined,not_defined,-16.5252003,-68.1551733,1,100.0
+"geo:-34.0378415,18.3474077?q=Pondicherry&u=30",Pondicherry,hamlet,not_defined,Western Cape,South Africa,-34.0378415,18.3474077,1,50.0
+"geo:-34.4698592,-57.8433679?q=Colonia del Sacramento&u=30",Colonia del Sacramento,administrative,Colonia del Sacramento,Colonia,Uruguay,-34.4698592,-57.8433679,1,75.0
+"geo:-34.5940268,-58.4469043?q=Bohemios&u=30",Bohemios,restaurant,Autonomous City of Buenos Aires,not_defined,Argentina,-34.5940268,-58.4469043,1,75.0
+"geo:-41.0757505,-71.4764209?q=Cerro Campanario&u=30",Cerro Campanario,peak,San Carlos de Bariloche,Río Negro Province,Argentina,-41.0757505,-71.4764209,1,100.0
+"geo:-41.1350512,-71.2935964?q=La Fonda del Tío&u=30",La Fonda del Tío,restaurant,San Carlos de Bariloche,Río Negro Province,Argentina,-41.1350512,-71.2935964,1,75.0
+"geo:-41.1982502,-71.4862753?q=Refugio Emilio Frey&u=30",Refugio Emilio Frey,shelter,not_defined,Río Negro Province,Argentina,-41.1982502,-71.4862753,1,100.0
+"geo:10.4434769,-3.1266648?q=Hello&u=30",Hello,village,not_defined,not_defined,Burkina Faso,10.4434769,-3.1266648,1,100.0
+"geo:10.91564885,79.80694879844232?q=undefined&u=30",undefined,not_defined,not_defined,not_defined,not_defined,10.91564885,79.80694879844232,1,25.0
+"geo:3.22000,51.21576?q=Pietervdvn Software Consultancy&u=15",Pietervdvn Software Consultancy,not_defined,not_defined,not_defined,not_defined,3.22,51.21576,1,75.0
+"geo:30.09509695,-90.43635883183157?q=Cajun Pride Swamp Tours&u=30",Cajun Pride Swamp Tours,theme_park,not_defined,Louisiana,United States,30.09509695,-90.43635883183155,1,100.0
+"geo:37.0078257,-8.9425252?q=Laundry Lounge Sagres&u=30",Laundry Lounge Sagres,cafe,Sagres,not_defined,Portugal,37.0078257,-8.9425252,3,91.66666666666669
+"geo:39.9323304,-74.07727?u=50&q=7-Eleven",7-Eleven,convenience,not_defined,New Jersey,United States,39.9323304,-74.07727,1,100.0
+"geo:39.96593065,-74.20531445?u=50&q=Shoprite",Shoprite,supermarket,Toms River,New Jersey,United States,39.96593065,-74.20531445,1,100.0
+"geo:39.97597545,-74.24284335?u=50&q=Matt%20Blatt%20Kia%20of%20Toms%20River",Matt%20Blatt%20Kia%20of%20Toms%20River,not_defined,not_defined,not_defined,not_defined,39.97597545,-74.24284335,1,20.0
+"geo:41.27093502177152,-7.6744642041057896?u=50&q=ahoxus",ahoxus,caravan_site,Vila Real,not_defined,Portugal,41.27093502177152,-7.674464204105789,1,100.0
+"geo:41.2989902,-7.7509509?q=Restaurante Golden Wok&u=30",Restaurante Golden Wok,restaurant,Vila Real,not_defined,Portugal,41.2989902,-7.7509509,1,100.0
+"geo:42.4589465,14.2229986?q=Pooka&u=30",Pooka,pub,Pescara,Abruzzo,Italy,42.4589465,14.2229986,1,100.0
+"geo:42.4604048,14.2311219?q=Al Tiramisú&u=30",Al Tiramisú,cafe,Pescara,Abruzzo,Italy,42.4604048,14.2311219,1,100.0
+"geo:42.6795374,23.3210091?u=50&q=playground",playground,playground,Triadica,not_defined,Bulgaria,42.6795374,23.3210091,1,60.0
+"geo:42.9124431,-8.7358186?q=Pizzería Milio&u=30",Pizzería Milio,fast_food,not_defined,Galicia,Spain,42.9124431,-8.7358186,1,100.0
+"geo:43.4982658,-8.2450147?q=Nuevo Rumbo&u=30",Nuevo Rumbo,pub,Ferrol,Galicia,Spain,43.4982658,-8.2450147,1,100.0
+"geo:44.8209414,20.4569453?u=50&q=Pasteli%20Cake%20Shop",Pasteli%20Cake%20Shop,not_defined,not_defined,not_defined,not_defined,44.8209414,20.4569453,1,100.0
+"geo:45.4102079,4.5794933?u=50&q=Rochers%20de%20la%20Sordi%C3%A8re",Rochers%20de%20la%20Sordi%C3%A8re,not_defined,not_defined,not_defined,not_defined,45.4102079,4.5794933,1,80.0
+"geo:45.5697484,11.9774792?q=Rizzo Abbigliamento&u=30",Rizzo Abbigliamento,clothes,not_defined,Veneto,Italy,45.5697484,11.9774792,1,100.0
+"geo:46.414202849999995,6.9275531?q=Château de Chillon&u=30",Château de Chillon,not_defined,not_defined,not_defined,not_defined,46.41420285,6.9275531,1,75.0
+"geo:46.58674645,13.928256600000001?q=Apartments am See Domenig&u=30",Apartments am See Domenig,yes,Villach,Carinthia,Austria,46.58674645,13.9282566,1,100.0
+"geo:46.8480544,9.530575?q=Gasthaus Gansplatz&u=30",Gasthaus Gansplatz,restaurant,Chur,Grisons,Switzerland,46.8480544,9.530575,1,100.0
+"geo:46.8532884,9.532565?q=Otello&u=30",Otello,restaurant,Chur,Grisons,Switzerland,46.8532884,9.532565,3,83.33333333333333
+"geo:46.9122292,17.8917574?q=Tihany&u=30",Tihany,village,Tihany,not_defined,Hungary,46.9122292,17.8917574,1,75.0
+"geo:46.9128657,17.8881952?q=Gulyás Udvar Étterem&u=30",Gulyás Udvar Étterem,restaurant,Tihany,not_defined,Hungary,46.9128657,17.8881952,1,100.0
+"geo:46.9470165,7.437509?q=Starbucks&u=30",Starbucks,cafe,Bern,Bern,Switzerland,46.9470165,7.437509,1,75.0
+"geo:47.0002812,8.3983246?q=Bürgenstock&u=30",Bürgenstock,peak,not_defined,Nidwalden,Switzerland,47.0002812,8.3983246,1,75.0
+"geo:47.0499734,9.4377004?q=Schloss Sargans&u=30",Schloss Sargans,castle,not_defined,St. Gallen,Switzerland,47.0499734,9.4377004,1,75.0
+"geo:47.0505452,8.3054682?q=Lucerne&u=30",Lucerne,administrative,not_defined,Lucerne,Switzerland,47.0505452,8.3054682,1,75.0
+"geo:47.0511141,8.29512?q=Gütsch&u=30",Gütsch,locality,not_defined,Lucerne,Switzerland,47.0511141,8.29512,1,75.0
+"geo:47.1437602,8.5337843?q=Zugerberg&u=30",Zugerberg,locality,not_defined,Zug,Switzerland,47.1437602,8.5337843,1,75.0
+"geo:47.1671127,8.5157744?q=Juan Long&u=30",Juan Long,not_defined,not_defined,not_defined,not_defined,47.1671127,8.5157744,1,50.0
+"geo:47.1674468,8.5149937?q=Gotthärdli&u=30",Gotthärdli,restaurant,not_defined,Zug,Switzerland,47.1674468,8.5149937,1,100.0
+"geo:47.1691576,8.514572?q=Juanitos&u=30",Juanitos,restaurant,not_defined,Zug,Switzerland,47.1691576,8.514572,1,50.0
+"geo:47.1718112,8.5137931?q=Reformierte Kirche&u=30",Reformierte Kirche,place_of_worship,not_defined,Zug,Switzerland,47.1718112,8.5137931,1,100.0
+"geo:47.1725513,8.5181721?q=Cha Cha Thai&u=30",Cha Cha Thai,house,not_defined,Zug,Switzerland,47.1725513,8.5181721,1,25.0
+"geo:47.1850241,8.5178011?u=50&q=Lidl",Lidl,supermarket,not_defined,Zug,Switzerland,47.1850241,8.5178011,1,80.0
+"geo:47.2273245,8.8156345?q=Schloss Rapperswil&u=30",Schloss Rapperswil,castle,Rapperswil-Jona,St. Gallen,Switzerland,47.2273245,8.8156345,1,100.0
+"geo:47.2533249,8.7800877?q=Baumgarten&u=30",Baumgarten,restaurant,Hombrechtikon,Zurich,Switzerland,47.2533249,8.7800877,1,50.0
+"geo:47.29493565,11.51422715?u=50&q=MPREIS",MPREIS,supermarket,not_defined,Tyrol,Austria,47.29493565,11.51422715,1,100.0
+"geo:47.3615349,8.5151166?q=piqyourdress Showroom Zurich&u=30",piqyourdress Showroom Zurich,clothes,Zurich,Zurich,Switzerland,47.3615349,8.5151166,1,100.0
+"geo:47.3762816,8.5386097?q=roots&u=30",roots,pub,Zurich,Zurich,Switzerland,47.3762816,8.5386097,1,100.0
+"geo:47.3807554,8.5040594?q=Brasserie Nestor&u=30",Brasserie Nestor,not_defined,not_defined,not_defined,not_defined,47.3807554,8.5040594,1,75.0
+"geo:47.3869001,8.5170453?q=Maag MusicHall&u=30",Maag MusicHall,not_defined,not_defined,not_defined,not_defined,47.3869001,8.5170453,1,75.0
+"geo:47.4133289,8.5522166?q=Hong-Kong Food Paradise&u=30",Hong-Kong Food Paradise,restaurant,Zurich,Zurich,Switzerland,47.4133289,8.5522166,1,75.0
+"geo:47.4133982,9.348073?q=TSO AG&u=30",TSO AG,company,not_defined,St. Gallen,Switzerland,47.4133982,9.348073,1,100.0
+"geo:47.4625581,8.1806714?q=Habsburg&u=30",Habsburg,castle,not_defined,Aargau,Switzerland,47.4625581,8.1806714,1,100.0
+"geo:47.4718021,8.4156202?q=Burgstelle Boppensol&u=30",Burgstelle Boppensol,archaeological_site,not_defined,Zurich,Switzerland,47.4718021,8.4156202,1,25.0
+"geo:47.4866113,19.058951711704644?q=Great Market Hall&u=30",Great Market Hall,attraction,not_defined,not_defined,Hungary,47.4866113,19.058951711704644,1,75.0
+"geo:47.486916,19.044562?q=Gellért Hill&u=30",Gellért Hill,peak,not_defined,not_defined,Hungary,47.486916,19.044562,1,75.0
+"geo:47.4893769,19.0536298?q=Kahwa el Salam&u=30",Kahwa el Salam,cafe,not_defined,not_defined,Hungary,47.4893769,19.0536298,1,75.0
+"geo:47.4925461,19.0607007?q=Budapest Baristas&u=30",Budapest Baristas,cafe,not_defined,not_defined,Hungary,47.4925461,19.0607007,1,75.0
+"geo:47.4974858,19.0627583?q=Gettó Gulyás&u=30",Gettó Gulyás,restaurant,not_defined,not_defined,Hungary,47.4974858,19.0627583,1,75.0
+"geo:47.5052599,19.0722363?q=Napfényes étterem&u=30",Napfényes étterem,not_defined,not_defined,not_defined,not_defined,47.5052599,19.0722363,1,75.0
+"geo:47.5605517,10.2166885?q=Freilich Unverpackt&u=30",Freilich Unverpackt,convenience,not_defined,Bavaria,Germany,47.5605517,10.2166885,1,100.0
+"geo:47.6038321,-122.3300624?q=Seattle&u=30",Seattle,administrative,Seattle,Washington,United States,47.6038321,-122.3300624,1,75.0
+"geo:47.74004875,13.444367195088567?q=Hotel Cortisen am See&u=30",Hotel Cortisen am See,hotel,St. Wolfgang im Salzkammergut,Upper Austria,Austria,47.74004875,13.444367195088567,1,100.0
+"geo:48.0511,10.8757?q=Hexenturm&u=30",Hexenturm,tower,not_defined,Bavaria,Germany,48.0511,10.8757,1,75.0
+"geo:48.0511,10.8757?q=Pietervdvn Software Consultancy&u=15",Pietervdvn Software Consultancy,not_defined,not_defined,not_defined,not_defined,48.0511,10.8757,1,75.0
+"geo:48.753018749999995,9.631041102509345?q=Gasthaus Löwen&u=30",Gasthaus Löwen,restaurant,not_defined,Baden-Württemberg,Germany,48.75301875,9.631041102509345,1,75.0
+"geo:48.77395335,44.80919325?u=50&q=sportpitch",sportpitch,not_defined,not_defined,not_defined,not_defined,48.77395335,44.80919325,1,100.0
+"geo:48.77543816558929,44.7589123249054?u=50&q=playground",playground,playground,Volzhsky,Volgograd Oblast,Russia,48.77543816558929,44.7589123249054,1,80.0
+"geo:48.776131649999996,44.76433335?u=50&q=playground",playground,playground,Volzhsky,Volgograd Oblast,Russia,48.77613165,44.76433335,1,80.0
+"geo:48.777037825151616,44.768058657646186?u=50&q=playground",playground,playground,Volzhsky,Volgograd Oblast,Russia,48.777037825151616,44.768058657646186,1,80.0
+"geo:48.7788177,44.7839856?u=50&q=sportpitch",sportpitch,not_defined,not_defined,not_defined,not_defined,48.7788177,44.7839856,1,80.0
+"geo:48.7805335,44.7941529?u=50&q=playground",playground,playground,Volzhsky,Volgograd Oblast,Russia,48.7805335,44.7941529,1,80.0
+"geo:48.78360465,44.7889785?u=50&q=sportpitch",sportpitch,not_defined,not_defined,not_defined,not_defined,48.78360465,44.7889785,2,90.0
+"geo:48.7841623,44.7865927?u=50&q=sportpitch",sportpitch,not_defined,not_defined,not_defined,not_defined,48.7841623,44.7865927,2,100.0
+"geo:48.78446982883077,44.78593289852143?u=50&q=sportpitch",sportpitch,not_defined,not_defined,not_defined,not_defined,48.78446982883077,44.78593289852143,1,80.0
+"geo:48.785539,44.7875503?u=50&q=playground",playground,playground,Volzhsky,Volgograd Oblast,Russia,48.785539,44.7875503,1,100.0
+"geo:48.78553902774804,44.787550270557404?u=50&q=playground",playground,playground,Volzhsky,Volgograd Oblast,Russia,48.78553902774804,44.78755027055741,1,80.0
+"geo:49.1187987,-122.8899872?q=Pepperoni Cafe&u=30",Pepperoni Cafe,restaurant,Surrey,British Columbia,Canada,49.1187987,-122.8899872,1,75.0
+"geo:50.1234938,8.6376816?q=Pizzeria Uno&u=30",Pizzeria Uno,restaurant,Frankfurt,Hesse,Germany,50.1234938,8.6376816,1,75.0
+"geo:50.123935450000005,8.655478006555516?q=Palmengarten&u=30",Palmengarten,attraction,Frankfurt,Hesse,Germany,50.123935450000005,8.655478006555516,1,100.0
+"geo:50.124021,8.6406251?q=Lhamo Bistro&u=30",Lhamo Bistro,restaurant,Frankfurt,Hesse,Germany,50.124021,8.6406251,1,100.0
+"geo:50.1242066,8.6362257?q=Hackquarter Chaos Computer Club Frankfurt e.V.&u=30",Hackquarter Chaos Computer Club Frankfurt e.V.,hackerspace,Frankfurt,Hesse,Germany,50.1242066,8.6362257,1,100.0
+"geo:50.1281619,8.6087774?q=Frag Henri&u=30",Frag Henri,not_defined,not_defined,not_defined,not_defined,50.1281619,8.6087774,1,100.0
+"geo:50.135592,8.60182229208942?q=Metro&u=30",Metro,wholesale,Frankfurt,Hesse,Germany,50.135592,8.60182229208942,1,75.0
+"geo:50.4833762,-3.7689843?q=South Devon Railway&u=30",South Devon Railway,preserved,Teignbridge,England,United Kingdom,50.4833762,-3.7689843,1,75.0
+"geo:51.02401373823834,4.493126571178437?u=50&q=Klimkaffee",Klimkaffee,not_defined,not_defined,not_defined,not_defined,51.02401373823834,4.493126571178437,1,80.0
+"geo:51.0535894,3.7004163?u=50&q=Carrefour%20Market",Carrefour%20Market,not_defined,not_defined,not_defined,not_defined,51.0535894,3.7004163,1,80.0
+"geo:51.1081974,17.0247706?q=Peruwiana&u=30",Peruwiana,restaurant,Wroclaw,Lower Silesian Voivodeship,Poland,51.1081974,17.0247706,1,100.0
+"geo:51.1089776,17.0326689?q=Wroclaw&u=30",Wroclaw,administrative,Wroclaw,Lower Silesian Voivodeship,Poland,51.1089776,17.0326689,1,75.0
+"geo:51.12703915,15.610203349999999?u=50&q=Piaskowcowe%20%C5%9Aciany",Piaskowcowe%20%C5%9Aciany,not_defined,not_defined,not_defined,not_defined,51.12703915,15.61020335,1,100.0
+"geo:51.2085526,3.226772?q=Bruges&u=30",Bruges,administrative,Bruges,West Flanders,Belgium,51.2085526,3.226772,1,75.0
+"geo:51.21576,3.22000?q=Pietervdvn Software Consultancy&u=15",Pietervdvn Software Consultancy,it,Bruges,West Flanders,Belgium,51.21576,3.22,2,100.0
+"geo:51.9262145,4.4788948?q=Restaurant De Jong&u=30",Restaurant De Jong,restaurant,Rotterdam,South Holland,Netherlands,51.9262145,4.4788948,1,100.0
+"geo:52.0847502,4.2993952?q=Hortus&u=30",Hortus,not_defined,not_defined,not_defined,not_defined,52.0847502,4.2993952,1,100.0
+"geo:52.2165398,21.0174662?q=Śródmieście&u=30",Śródmieście,not_defined,not_defined,not_defined,not_defined,52.2165398,21.0174662,1,100.0
+"geo:52.2317641,21.005799675616117?q=Pałac Kultury&u=30",Pałac Kultury,building,Warsaw,Masovian Voivodeship,Poland,52.2317641,21.00579967561612,2,60.0
+"geo:52.29096405,14.060294292125526?q=SaarowTherme&u=30",SaarowTherme,not_defined,not_defined,not_defined,not_defined,52.29096405,14.060294292125526,1,50.0
+"geo:52.3572677,4.8916152?q=Vegan Junk Food Bar&u=30",Vegan Junk Food Bar,fast_food,Amsterdam,North Holland,Netherlands,52.3572677,4.8916152,1,100.0
+"geo:53.5517883,10.0009813?q=Prego&u=30",Prego,restaurant,Hamburg,not_defined,Germany,53.5517883,10.0009813,1,100.0
+"geo:53.6188781,9.6857171?q=Holmer Sandberge&u=30",Holmer Sandberge,information,not_defined,Schleswig-Holstein,Germany,53.6188781,9.6857171,1,100.0
+"geo:53.731224,9.9033409?q=Caesar Cut&u=30",Caesar Cut,hairdresser,not_defined,Schleswig-Holstein,Germany,53.731224,9.9033409,1,100.0
+"geo:53.7313989,9.8992692?q=Foto Unger&u=30",Foto Unger,photo,not_defined,Schleswig-Holstein,Germany,53.7313989,9.8992692,1,100.0
+"geo:57.0766696,24.3231405?q=Klaips&u=30",Klaips,restaurant,Ādažu pagasts,Vidzeme,Latvia,57.0766696,24.3231405,1,75.0
+"geo:58.3285722,11.9032573?q=Hälsokällan&u=30",Hälsokällan,attraction,not_defined,not_defined,Sweden,58.3285722,11.9032573,1,75.0
+"geo:58.3404318,11.9709882?q=Vindskyddet - Källsvattnet&u=30",Vindskyddet - Källsvattnet,shelter,not_defined,not_defined,Sweden,58.3404318,11.9709882,1,100.0
+"geo:58.3500847,11.9368705?q=RÅG&u=30",RÅG,cafe,not_defined,not_defined,Sweden,58.3500847,11.9368705,1,75.0
+"geo:6.9973602,81.0577337?q=Hotel Mariot&u=30",Hotel Mariot,hotel,Badulla,Uva Province,Sri Lanka,6.9973602,81.0577337,1,100.0
