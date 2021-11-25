@@ -18,7 +18,9 @@ config.read('config/config.ini')
 # define variables
 # define timeout for memoize function
 TIMEOUT = int(config['timeout']['timeout_memoize'])
+# define timeout for sourcing data
 TIMEOUT_SOURCE = int(config['timeout']['timeout_source'])
+# define timeout for preprocessing data
 TIMEOUT_PREPROCESS = int(config['timeout']['timeout_preprocess'])
 # ----------------------------------------------------------------------------------------------------
 
