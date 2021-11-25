@@ -22,6 +22,10 @@ TIMEOUT = int(config['timeout']['timeout_memoize'])
 TIMEOUT_SOURCE = int(config['timeout']['timeout_source'])
 # define timeout for preprocessing data
 TIMEOUT_PREPROCESS = int(config['timeout']['timeout_preprocess'])
+# Link GitHub
+LINK_GITHUB = config['link']['github']
+# Link MANGROVE
+LINK_MANGROVE = config['link']['mangrove']
 # ----------------------------------------------------------------------------------------------------
 
 
@@ -138,6 +142,8 @@ app.layout = dbc.Container(
         # html.P -> Paragraph / Spacing
         html.P(),
         html.H1("Visualizing MANGROVE review subjects"),
+        dbc.Button("View on GitHub", outline=True, color="primary", className="me-1", href=LINK_GITHUB),
+        dbc.Button("Write Review", outline=True, color="primary", className="me-1", href=LINK_MANGROVE),
         html.Hr(),
         dbc.Row(
             [
