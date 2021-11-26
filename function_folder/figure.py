@@ -31,7 +31,11 @@ def map(df):
                             zoom=7,
                             height=500)
     fig.update_layout(mapbox_style='open-street-map')
-    fig.update_layout(showlegend=False)
+    fig.update_layout(coloraxis_colorbar=dict(yanchor="bottom",
+                                              y=0.01,
+                                              xanchor="left",
+                                              x=0.01,
+                                              len=0.35))
     # side distance
     fig.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0})
     # change marker size
