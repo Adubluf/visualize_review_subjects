@@ -241,6 +241,8 @@ def update_data_mangrove(n):
             with open(PATH_TS, 'w', encoding='UTF8', newline='') as f:
                 writer = csv.writer(f)
                 writer.writerow(list_ts)
+            preprocess.one()
+            source.one()
     return {}
 # ----------------------------------------------------------------------------------------------------
 
