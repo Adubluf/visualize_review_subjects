@@ -47,7 +47,7 @@ def kpi_filter(df):
     sum_rs = df_pandas.shape[0]
     sum_r = df_pandas['review_count'].sum()
     average_stars = df_pandas['rating'].sum()/sum_rs
-    return '{}'.format(sum_rs), '{}'.format(sum_r), '{:.2f}'.format(average_stars)
+    return '{}'.format(sum_rs), '{}'.format(sum_r), '{:.0f}'.format(average_stars)
 
 
 # kpi selected review subject
@@ -72,6 +72,8 @@ def kpi_review_subject(click_data, df_filtered_business, list_slider, df_kpi, df
             df_most_similar.drop(index=df_most_similar.index[0], axis=0, inplace=True)
             df_most_similar = pd.merge(df_most_similar, df_pd_filtered_business, left_index=True, right_on='sub', how='left')
             df_most_similar_final = df_most_similar[['name', 'rating', sub]].rename(columns={sub: "similarity"})
+            df_most_similar_final.rating = df_most_similar_final.rating.round()
+            df_most_similar_final.similarity = df_most_similar_final.similarity.round(decimals=2)
             return df_most_similar_final
         else:
             return df_pd_filtered_slider[['name', 'rating', 'sub']].iloc[0:0].rename(columns={'sub': "similarity"})
@@ -149,7 +151,7 @@ def kpi_review_subject(click_data, df_filtered_business, list_slider, df_kpi, df
     # get name to sub
     name_subject = df_pd_filtered_business[df_pd_filtered_business['sub'] == sub]['name']
     # get rating to sub
-    rating_subject = df_pd_filtered_business[df_pd_filtered_business['sub'] == sub]['rating']
+    rating_subject = round(df_pd_filtered_business[df_pd_filtered_business['sub'] == sub]['rating'])
     # get review count
     reviews_subject = df_pd_filtered_business[df_pd_filtered_business['sub'] == sub]['review_count']
     df_kpi_f = df_kpi[df_kpi['sub'] == sub]

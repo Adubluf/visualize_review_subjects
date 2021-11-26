@@ -162,7 +162,7 @@ app.layout = dbc.Container(
                                                     html.H6(id='text_filter_subject')], style=style_div), md=4),
                                   dbc.Col(html.Div([html.H5('Total number of reviews:'),
                                                     html.H6(id='text_filter_review')], style=style_div), md=4),
-                                  dbc.Col(html.Div([html.H5('Average score in stars:'),
+                                  dbc.Col(html.Div([html.H5('Average rating (0 lowest - 100 highest):'),
                                                     html.H6(id='text_filter_stars')], style=style_div), md=4)
                                   ]),
                          dbc.Row(dcc.Graph(id='fig_map'), style={'margin-top': '15px',
@@ -242,8 +242,6 @@ def update_data_mangrove(n):
                 writer = csv.writer(f)
                 writer.writerow(list_ts)
     return {}
-
-
 # ----------------------------------------------------------------------------------------------------
 
 
