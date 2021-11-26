@@ -26,6 +26,12 @@ TIMEOUT_PREPROCESS = int(config['timeout']['timeout_preprocess'])
 LINK_GITHUB = config['link']['github']
 # Link MANGROVE
 LINK_MANGROVE = config['link']['mangrove']
+# filter category
+FILTER_CATEGORY = config['filter']['category']
+# filter country
+FILTER_COUNTRY = config['filter']['country']
+# filter state
+FILTER_STATE = config['filter']['state']
 # ----------------------------------------------------------------------------------------------------
 
 
@@ -108,7 +114,7 @@ controls = dbc.Card(
                 dcc.Dropdown(id='dropdown_category',
                              options=options_category(),
                              # default value
-                             value='Food', style=style_dropdown)
+                             value=FILTER_CATEGORY, style=style_dropdown)
             ]
         ),
         html.Div(
@@ -117,7 +123,7 @@ controls = dbc.Card(
                 dcc.Dropdown(id='dropdown_country',
                              # options -> output from def
                              # default value
-                             value='USA', style=style_dropdown)
+                             value=FILTER_COUNTRY, style=style_dropdown)
             ]
         ),
         html.Div(
@@ -126,7 +132,7 @@ controls = dbc.Card(
                 dcc.Dropdown(id='dropdown_state',
                              # options -> output from def
                              # default value
-                             value='FL', style=style_dropdown)
+                             value=FILTER_STATE, style=style_dropdown)
             ]
         ),
     ],
