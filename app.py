@@ -1,11 +1,13 @@
 # import libraries
 import pandas as pd
+import csv
 import dash
 import dash_bootstrap_components as dbc
 from dash.dependencies import Output, Input
 from dash import dash_table
 from dash import dcc
 from dash import html
+from datetime import datetime
 from flask_caching import Cache
 from configparser import ConfigParser
 from function_folder import *
@@ -16,21 +18,21 @@ config = ConfigParser()
 config.read('config/config.ini')
 
 # define variables
+# dfine path mangrove_ts.csv
+PATH_TS = config['path']['path_ts']
 # define timeout for memoize function
 TIMEOUT = int(config['timeout']['timeout_memoize'])
-# define timeout for sourcing data
-TIMEOUT_SOURCE = int(config['timeout']['timeout_source'])
-# define timeout for preprocessing data
-TIMEOUT_PREPROCESS = int(config['timeout']['timeout_preprocess'])
-# Link GitHub
+# define timeout fpr updating data
+TIMEOUT_UPDATE = int(config['timeout']['timeout_update'])
+# define Link GitHub
 LINK_GITHUB = config['link']['github']
-# Link MANGROVE
+# define Link MANGROVE
 LINK_MANGROVE = config['link']['mangrove']
-# filter category
+# define filter category
 FILTER_CATEGORY = config['filter']['category']
-# filter country
+# define filter country
 FILTER_COUNTRY = config['filter']['country']
-# filter state
+# define filter state
 FILTER_STATE = config['filter']['state']
 # ----------------------------------------------------------------------------------------------------
 
@@ -145,11 +147,13 @@ app.layout = dbc.Container(
     [
         dcc.Store(id='store_business'),
         dcc.Store(id='store_subject'),
+        dcc.Store(id='store_placeholder'),
         # html.P -> Paragraph / Spacing
         html.P(),
         html.H1("Visualizing MANGROVE review subjects"),
         dbc.Button("View on GitHub", outline=True, color="primary", className="me-1", href=LINK_GITHUB),
         dbc.Button("Write Review", outline=True, color="primary", className="me-1", href=LINK_MANGROVE),
+        dbc.Button("Update Data", id='update_data_mangrove', outline=True, color="primary", className="me-1", n_clicks=0),
         html.Hr(),
         dbc.Row(
             [
@@ -214,6 +218,31 @@ app.layout = dbc.Container(
     ],
     fluid=True,
 )
+
+# ----------------------------------------------------------------------------------------------------
+
+
+# callbakcs to update data
+# callback to update data by hitting button
+@app.callback(Output('store_placeholder', 'data'),
+              [Input('update_data_mangrove', 'n_clicks')])
+def update_data_mangrove(n):
+    if n > 0:
+        now = datetime.now()
+        ts = now.timestamp()
+        with open(PATH_TS, 'r', encoding='UTF8', newline='') as f:
+            reader = csv.reader(f)
+            ts_old = float(next(reader)[0])
+        if ts - ts_old > TIMEOUT_UPDATE:
+            print(TIMEOUT_UPDATE)
+            print(ts_old)
+            print(ts)
+            list_ts = [ts]
+            with open(PATH_TS, 'w', encoding='UTF8', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow(list_ts)
+    return {}
+
 
 # ----------------------------------------------------------------------------------------------------
 
