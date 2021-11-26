@@ -64,13 +64,17 @@ def kpi_review_subject(click_data, df_filtered_business, list_slider, df_kpi, df
         list_similarity_index = df_similarity.index.tolist()
         # filter out subjects without comments (subjects without comments are not in similarity matrix)
         list_filter = [i for i in list_filtered_business if i in list_similarity_index]
-        df_filter = df_similarity.loc[list_filter,[sub]]
-        df_most_similar = df_filter.nlargest(4, sub, keep='first')
-        # drop first row (similarity 1, to be investigated review subject)
-        df_most_similar.drop(index=df_most_similar.index[0], axis=0, inplace=True)
-        df_most_similar = pd.merge(df_most_similar, df_pd_filtered_business, left_index=True, right_on='sub', how='left')
-        df_most_similar_final = df_most_similar[['name', 'rating', sub]].rename(columns={sub : "similarity"})
-        return df_most_similar_final
+        # check if sub has reviews
+        if sub in list_filter:
+            df_filter = df_similarity.loc[list_filter, [sub]]
+            df_most_similar = df_filter.nlargest(4, sub, keep='first')
+            # drop first row (similarity 1, to be investigated review subject)
+            df_most_similar.drop(index=df_most_similar.index[0], axis=0, inplace=True)
+            df_most_similar = pd.merge(df_most_similar, df_pd_filtered_business, left_index=True, right_on='sub', how='left')
+            df_most_similar_final = df_most_similar[['name', 'rating', sub]].rename(columns={sub: "similarity"})
+            return df_most_similar_final
+        else:
+            return df_pd_filtered_slider[['name', 'rating', 'sub']].iloc[0:0].rename(columns={'sub': "similarity"})
 
     # function to create figure kpis
     def line_charts(df):
