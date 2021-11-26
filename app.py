@@ -169,9 +169,8 @@ app.layout = dbc.Container(
                          dbc.Row(dbc.Col(html.Div([html.H5('Cumulative average rating & cumulative sum of all reviews of review subject over time'),
                                                    dcc.Graph(id='fig_subject_kpi')], style=style_div))),
                          dbc.Row([dbc.Col(html.Div([html.H5('Similarity table'),
-                                                    html.H6('In this table, the most similar review subjects \
-                                                    to the selected review subject are suggested. \
-                                                    The similarity is compared only in the active filter.'),
+                                                    html.H6('Based on the selected review subject, \
+                                                    review subjects similar in content are suggested here.'),
                                                     dash_table.DataTable(id='table',
                                                                          style_cell_conditional=table_alignment,
                                                                          style_as_list_view=table_view,
@@ -180,8 +179,7 @@ app.layout = dbc.Container(
                                                                          ),
                                                     html.P(),
                                                     html.H5('Rating filter'),
-                                                    html.H6('The slider can be used to consider only specific \
-                                                    ratings in the similarity table.'),
+                                                    html.H6('Use the rating filter to customize the suggestion.'),
                                                     html.P(),
                                                     dcc.RangeSlider(id='range_slider',
                                                                     min=0,
