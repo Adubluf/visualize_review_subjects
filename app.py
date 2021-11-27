@@ -242,7 +242,7 @@ def update_data_mangrove(n):
                 writer = csv.writer(f)
                 writer.writerow(list_ts)
             source.get_new_data()
-            preprocess.one()
+            preprocess.nlp_function()
     return {}
 # ----------------------------------------------------------------------------------------------------
 
