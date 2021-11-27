@@ -10,6 +10,7 @@ from dash import html
 from datetime import datetime
 from flask_caching import Cache
 from configparser import ConfigParser
+import time
 from function_folder import *
 # ----------------------------------------------------------------------------------------------------
 
@@ -242,6 +243,7 @@ def update_data_mangrove(n):
                 writer = csv.writer(f)
                 writer.writerow(list_ts)
             source.get_new_data()
+            time.sleep(2)
             preprocess.nlp_function()
     return {}
 # ----------------------------------------------------------------------------------------------------
