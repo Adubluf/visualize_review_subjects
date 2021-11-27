@@ -77,12 +77,18 @@ sub,name,category,city,state,country,lat,lon,review_count,rating
 "geo:48.785539,44.7875503?u=50&q=playground",playground,playground,Volzhsky,Volgograd Oblast,Russia,48.785539,44.7875503,1,100.0
 "geo:48.78553902774804,44.787550270557404?u=50&q=playground",playground,playground,Volzhsky,Volgograd Oblast,Russia,48.78553902774804,44.78755027055741,1,80.0
 "geo:49.1187987,-122.8899872?q=Pepperoni Cafe&u=30",Pepperoni Cafe,restaurant,Surrey,British Columbia,Canada,49.1187987,-122.8899872,1,75.0
+"geo:50.1017954,8.6658524?u=50&q=sportpitch",sportpitch,not_defined,not_defined,not_defined,not_defined,50.1017954,8.6658524,1,80.0
+"geo:50.1232861,8.6381339?u=50&q=playground",playground,playground,Frankfurt,Hesse,Germany,50.1232861,8.6381339,1,100.0
 "geo:50.1234938,8.6376816?q=Pizzeria Uno&u=30",Pizzeria Uno,restaurant,Frankfurt,Hesse,Germany,50.1234938,8.6376816,1,75.0
 "geo:50.123935450000005,8.655478006555516?q=Palmengarten&u=30",Palmengarten,attraction,Frankfurt,Hesse,Germany,50.123935450000005,8.655478006555516,1,100.0
+"geo:50.12397278943608,8.64290624856949?u=50&q=Yasmini",Yasmini,yes,Frankfurt,Hesse,Germany,50.12397278943608,8.64290624856949,1,100.0
 "geo:50.124021,8.6406251?q=Lhamo Bistro&u=30",Lhamo Bistro,restaurant,Frankfurt,Hesse,Germany,50.124021,8.6406251,1,100.0
 "geo:50.1242066,8.6362257?q=Hackquarter Chaos Computer Club Frankfurt e.V.&u=30",Hackquarter Chaos Computer Club Frankfurt e.V.,hackerspace,Frankfurt,Hesse,Germany,50.1242066,8.6362257,1,100.0
 "geo:50.1281619,8.6087774?q=Frag Henri&u=30",Frag Henri,not_defined,not_defined,not_defined,not_defined,50.1281619,8.6087774,1,100.0
 "geo:50.135592,8.60182229208942?q=Metro&u=30",Metro,wholesale,Frankfurt,Hesse,Germany,50.135592,8.60182229208942,1,75.0
+"geo:50.165774400000004,9.0989785?u=50&q=sportpitch",sportpitch,not_defined,not_defined,not_defined,not_defined,50.165774400000004,9.0989785,1,20.0
+"geo:50.1809782,9.1977482?u=50&q=Skate-%20und%20Funanlage",Skate-%20und%20Funanlage,not_defined,not_defined,not_defined,not_defined,50.1809782,9.1977482,1,40.0
+"geo:50.199170249999995,9.1936447?u=50&q=sportpitch",sportpitch,not_defined,not_defined,not_defined,not_defined,50.199170249999995,9.1936447,1,60.0
 "geo:50.4833762,-3.7689843?q=South Devon Railway&u=30",South Devon Railway,preserved,Teignbridge,England,United Kingdom,50.4833762,-3.7689843,1,75.0
 "geo:51.02401373823834,4.493126571178437?u=50&q=Klimkaffee",Klimkaffee,not_defined,not_defined,not_defined,not_defined,51.02401373823834,4.493126571178437,1,80.0
 "geo:51.0535894,3.7004163?u=50&q=Carrefour%20Market",Carrefour%20Market,not_defined,not_defined,not_defined,not_defined,51.0535894,3.7004163,1,80.0
@@ -101,6 +107,8 @@ sub,name,category,city,state,country,lat,lon,review_count,rating
 "geo:53.6188781,9.6857171?q=Holmer Sandberge&u=30",Holmer Sandberge,information,not_defined,Schleswig-Holstein,Germany,53.6188781,9.6857171,1,100.0
 "geo:53.731224,9.9033409?q=Caesar Cut&u=30",Caesar Cut,hairdresser,not_defined,Schleswig-Holstein,Germany,53.731224,9.9033409,1,100.0
 "geo:53.7313989,9.8992692?q=Foto Unger&u=30",Foto Unger,photo,not_defined,Schleswig-Holstein,Germany,53.7313989,9.8992692,1,100.0
+"geo:55.6641414,12.6011254?q=Th. Sørensen&u=30",Th. Sørensen,deli,Copenhagen,Capital Region of Denmark,Denmark,55.6641414,12.6011254,1,75.0
+"geo:56.0390514,12.613845469391894?q=Elsinore Street Food&u=30",Elsinore Street Food,marketplace,not_defined,Capital Region of Denmark,Denmark,56.0390514,12.613845469391894,1,100.0
 "geo:57.0766696,24.3231405?q=Klaips&u=30",Klaips,restaurant,Ādažu pagasts,Vidzeme,Latvia,57.0766696,24.3231405,1,75.0
 "geo:58.3285722,11.9032573?q=Hälsokällan&u=30",Hälsokällan,attraction,not_defined,not_defined,Sweden,58.3285722,11.9032573,1,75.0
 "geo:58.3404318,11.9709882?q=Vindskyddet - Källsvattnet&u=30",Vindskyddet - Källsvattnet,shelter,not_defined,not_defined,Sweden,58.3404318,11.9709882,1,100.0
