@@ -21,6 +21,12 @@ config.read('config/config.ini')
 # define variables
 # dfine path mangrove_ts.csv
 PATH_TS = config['path']['path_ts']
+# define status button update
+UPDATE_STATUS = config['update']['status']
+if UPDATE_STATUS == 'True':
+    UPDATE_STATUS = True
+else:
+    UPDATE_STATUS = False
 # define timeout for memoize function
 TIMEOUT = int(config['timeout']['timeout_memoize'])
 # define timeout fpr updating data
@@ -39,7 +45,9 @@ FILTER_STATE = config['filter']['state']
 
 
 # create app & cache
-app = dash.Dash(external_stylesheets=[dbc.themes.SUPERHERO])
+app = dash.Dash(external_stylesheets=[dbc.themes.SUPERHERO],
+                meta_tags=[{"name": "viewport",
+                            "content": "width=device-width, initial-scale=1"}])
 # CACHE_DIR saves file
 cache = Cache(app.server, config={
     'CACHE_TYPE': 'filesystem',
@@ -85,6 +93,9 @@ style_div = {'padding': '10px',
              'margin-top': '15px',
              'margin-bottom': '15px',
              'background-color': '#4e5d6c'}
+
+# css style dropdown box
+style_button = {'margin-top': '15px'}
 
 # css style dropdown box
 style_box = {'margin-top': '15px'}
@@ -142,7 +153,7 @@ controls = dbc.Card(
     body=True,
     style=style_box
 )
-
+print(UPDATE_STATUS)
 # layout
 app.layout = dbc.Container(
     [
@@ -152,9 +163,12 @@ app.layout = dbc.Container(
         # html.P -> Paragraph / Spacing
         html.P(),
         html.H1("Visualizing MANGROVE review subjects"),
-        dbc.Button("View on GitHub", outline=True, color="primary", className="me-1", href=LINK_GITHUB),
-        dbc.Button("Write Review", outline=True, color="primary", className="me-1", href=LINK_MANGROVE),
-        dbc.Button("Update Data", id='update_data_mangrove', outline=True, color="primary", className="me-1", n_clicks=0),
+        dbc.Button("View on GitHub", outline=True, color="primary", className="me-1", href=LINK_GITHUB,
+                   style=style_button),
+        dbc.Button("Write Review", outline=True, color="primary", className="me-1", href=LINK_MANGROVE,
+                   style=style_button),
+        dbc.Button("Update Data", id='update_data_mangrove', outline=True, color="primary", className="me-1",
+                   n_clicks=0, disabled=UPDATE_STATUS, style=style_button),
         html.Hr(),
         dbc.Row(
             [
