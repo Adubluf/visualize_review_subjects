@@ -153,7 +153,7 @@ controls = dbc.Card(
     body=True,
     style=style_box
 )
-print(UPDATE_STATUS)
+
 # layout
 app.layout = dbc.Container(
     [
