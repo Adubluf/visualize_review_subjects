@@ -154,7 +154,11 @@ def kpi_review_subject(click_data, df_filtered_business, list_slider, df_kpi, df
     rating_subject = round(df_pd_filtered_business[df_pd_filtered_business['sub'] == sub]['rating'])
     # get review count
     reviews_subject = df_pd_filtered_business[df_pd_filtered_business['sub'] == sub]['review_count']
+    # filter by sub
     df_kpi_f = df_kpi[df_kpi['sub'] == sub]
+    # mangrove-dataset is not sorted by date
+    if 'iat_original' in df_kpi_f.columns:
+        df_kpi_f = df_kpi_f.sort_values(by=['iat_original'])
     # add new column -> number of reviews
     df_kpi_f.insert(loc=3, column='review_n', value=np.arange(1, len(df_kpi_f)+1))
     # add new column -> cum mean of stars_review
