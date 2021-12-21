@@ -84,7 +84,8 @@ def similarity():
 # create dropdown options for categories
 def options_category():
     df = business()
-    return [{'label': i, 'value': i} for i in df['category']]
+    df.sort_values(by=['category'], inplace=True)
+    return [{'label': i, 'value': i} for i in df['category'].unique()]
 # ----------------------------------------------------------------------------------------------------
 
 
@@ -270,6 +271,7 @@ def update_data_mangrove(n):
 def cb_dropdown_country(selected_category):
     # create options for country
     df = business()
+    df.sort_values(by=['country'], inplace=True)
     filtered_country = df[df['category'] == selected_category]['country'].unique()
     # return options
     return [{'label': i, 'value': i} for i in filtered_country]
@@ -282,6 +284,7 @@ def cb_dropdown_country(selected_category):
 def cb_dropdown_state(selected_category, selected_country):
     # create options for state
     df = business()
+    df.sort_values(by=['state'], inplace=True)
     filtered_state = df[(df['category'] == selected_category) & (df['country'] == selected_country)]['state'].unique()
     # return options
     return [{'label': i, 'value': i} for i in filtered_state]
