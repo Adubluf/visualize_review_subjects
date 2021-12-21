@@ -1,7 +1,7 @@
 # visualize_review_subjects
 
 **Project description:**
-* Visualize review subjects from the mangrove dataset
+* Visualize review subjects from the Mangrove dataset
 * Web application based on Dash and Plotly
 
 **Main programming language:**
