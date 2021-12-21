@@ -12,4 +12,4 @@
 
 **Intersting insights:**
 * The [Open Reviews Association (ORA)](https://open-reviews.net/) is the organization behind the Mangrove dataset
-* [Contribute](https://mangrove.reviews/) to the mangrove dataset
+* [Contribute](https://mangrove.reviews/) to the Mangrove dataset
